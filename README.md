@@ -230,3 +230,7 @@ For anything not wrapped yet, use `client.request(:get, "/v1/whatever")`, which 
 bundle install
 bundle exec rake test
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
