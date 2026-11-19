@@ -5,7 +5,7 @@ require "typesafe"
 
 client = TypeSafe::Client.new
 
-puts "Models: #{client.models.list.names.join(', ')}"
+puts "Models: #{client.models.list.names.join(", ")}"
 
 result = client.system_one(
   state: { subject: "Duplicate charge", message: "I was charged twice this month. Please refund ASAP!" },

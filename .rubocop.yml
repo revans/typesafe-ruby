@@ -11,9 +11,9 @@ Style/Documentation:
   Enabled: false
 Layout/LineLength:
   Max: 120
+  Exclude:
+    - "test/**/*"
 Metrics:
   Enabled: false
 Naming/MethodParameterName:
   AllowedNames: [io, x, y]
-  Exclude:
-    - "test/**/*"
