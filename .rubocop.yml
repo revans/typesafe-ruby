@@ -15,3 +15,5 @@ Metrics:
   Enabled: false
 Naming/MethodParameterName:
   AllowedNames: [io, x, y]
+  Exclude:
+    - "test/**/*"
